@@ -17,7 +17,7 @@
    <body class="body">
       <div class="container">
          <div class="row">
-            <div class="col-lg-5 student-image"> 
+            <div class="col-lg-5 col-md-0 col-sm-0 student-image"> 
                <img src="img/students_register_page.png" class="img-fluid" alt="Responsive image">
             </div>
             <div class="col-lg-1">
@@ -26,7 +26,7 @@
                <form class="=form-group">
                   <img src="img/businessman-avatr.png" class="img-fluid" alt="Responsive image">
                   <br>
-                  <h2 class="title">Admissions Application</h2>
+                  <h2 class="h2 title-addmission">Admissions Application</h2>
                   <hr>
                   <div class="row">
                      <div class="col-lg-6 col-md-6">
@@ -61,28 +61,36 @@
                   <br>
                   <label><strong>Upload CV</strong></label>
                   <input  class="form-control" type="file" id="UCV" name="UCV" required><br>
-                  <div>
-                     <select class="form-control">
-                        <option class="dropdown-header">Choose gender</option>
-                        <option class="dropdown-item" >Male</option>
-                        <option class="dropdown-item " >Female</option>
-                        <option class="dropdown-item " >Other</option>
-                     </select>
+                  <select class="form-control">
+                     <option class="dropdown-header">Choose gender</option>
+                     <option class="dropdown-item" >Male</option>
+                     <option class="dropdown-item " >Female</option>
+                     <option class="dropdown-item " >Other</option>
+                  </select>
+                  <div calss="register-habits form-check">
+                     <label class="label-habits"><strong>Habits </strong></label>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id ="dCar" name="dCar" value="Drive car">
+                        <label class="form-check-label" for="dCar"> Drive car</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="swimming" value="Swimming">
+                        <label class="form-check-label" for="swimming">Swimming</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="vGame" value="vGame">
+                        <label class="form-check-label" for="vGame">vGame</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="football" value="Swimming">
+                        <label class="form-check-label" for="football">Football</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="otherHabbits" value="Swimming">
+                        <label class="form-check-label" for="otherHabbits">other</label>
+                     </div>
                   </div>
-                  <div>
-                     <label><strong>Habits </strong></label>
-                     <input type="checkbox"  id ="dCar" name="dCar" value="Drive car">
-                     <label for="dCar"> Drive car</label>
-                     <input type="checkbox" id ="swimming" name="swimming" value="Swimming">
-                     <label for="swimming"> Swimming</label>
-                     <input type="checkbox" id ="football"  name="football" value="Football">
-                     <label for="football"> Football</label>
-                     <input type="checkbox"  id ="vGame"  name="vGame" value="Video game">
-                     <label for="vGame"> Video game</label>
-                     <input type="checkbox"  id ="otherH"  name="otherH" value="other">
-                     <label for="otherH"> Other</label>
-                  </div>
-                  <button  class="btn-register btn btn-primary brn-lg"  type="submit"><strong>Register</strong></button>
+                  <button  class=" button btn-register btn btn-primary brn-lg"  type="submit"><strong>Register</strong></button>
                </form>
             </div>
          </div>
