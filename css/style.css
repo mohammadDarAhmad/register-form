@@ -26,8 +26,8 @@
      margin-left: auto;
 }
  .register-content{
-     margin-top: 1px 1px 1px 1px;
-     padding-bottom: 100px;
+     margin-top: 10px;
+     padding-bottom: 50px;
      border: 1px solid black;
      border-radius: 50px;
      align-items: center;
@@ -44,7 +44,7 @@
      max-width: 100%;
      height: 100px;
 }
- .title{
+ .title-addmission{
      margin: 15px 0;
      color: #333;
      text-transform: uppercase;
@@ -63,21 +63,18 @@
      text-transform: uppercase;
      font-size: 2.5rem;
 }
+ .label-habits{
+     padding: 20px 10px 0px 0px;
+}
  .btn-register{
-     margin-top: 0;
      display: block;
-     width: 80%;
+     width: 40%;
      height: 40px;
      border-radius: 25px !important;
-     outline: none;
-     border: none;
      background-color: #E90172 !important;
-     font-size: 1.5rem;
      color: #fff;
      text-transform: uppercase;
-     margin: 10px 50px 0px 5px !important;
-     cursor: pointer;
-     transition: .5s;
+     margin: 40px 50px 0px 0px !important;
 }
  .btn-register:hover{
      background-position: right;
@@ -85,6 +82,11 @@
  @media (min-width: 1600px){
      .container{
          max-width: 1750px !important;
+    }
+}
+ @media (min-width: 1200px){
+     .container{
+         max-width: 1500px !important;
     }
 }
  @media screen and (max-width: 992px){
@@ -101,4 +103,3 @@
          padding: 0px 0px 0px 125px;
     }
 }
- 
