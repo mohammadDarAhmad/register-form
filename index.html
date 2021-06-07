@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Register in UOP">
+      <meta name="keywords" content="HTML,css">
+      <meta name="author" content="Mohammad Dar Ahmad">
+      <link rel="stylesheet"  href="css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>Regsiter page</title>
+   </head>
+   <header class="header">
+      <div class="logo-UOP">
+         <img src="https://go.uopeople.edu/rs/972-VUZ-580/images/LOGO18.png" class="img-fluid" alt="Responsive image">
+      </div>
+   </header>
+   <body class="body">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-5 student-image"> 
+               <img src="img/students_register_page.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-6 register-content ">
+               <form class="=form-group">
+                  <img src="img/businessman-avatr.png" class="img-fluid" alt="Responsive image">
+                  <br>
+                  <h2 class="title">Admissions Application</h2>
+                  <hr>
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <input  class="form-control" type="text" placeholder="First name" name="fName" required>
+                     </div>
+                     <br>
+                     <div class="col-lg-6 col-md-6">
+                        <input class="form-control" type="text" placeholder="Last name" name="LName" required>
+                     </div>
+                     <br>
+                  </div>
+                  <br>
+                  <input  class="form-control" type="text" placeholder="Enter Email" name="email" title="Should be add email like example@example.com" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <input  class="form-control" type="text" placeholder="Enter yout country" name="country" required>
+                     </div>
+                     <div class="col-lg-6">
+                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="phone number" title="Phone number in palestine with introduction +97[2,0] and  remaing 9 digit with 0-9" pattern="[+]{1}[9]{1}[7]{1}[2,0]{1}[5]{1}[6,9]{1}[0-9]{7}"required>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <input  class="form-control" type="password" placeholder="Enter Password" title="A passwords have a number, and capital letter, and small letter and length more than 8"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="pwd" required>                   
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <input  class="form-control" type="password"   placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  name="confirm" required>
+                     </div>
+                  </div>
+                  <br>
+                  <label><strong>Upload CV</strong></label>
+                  <input  class="form-control" type="file" id="UCV" name="UCV" required><br>
+                  <div>
+                     <select  class="form-control">
+                        <option>Choose gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                     </select>
+                  </div>
+                  <div>
+                     <label><strong>Habits </strong></label>
+                     <input type="checkbox"  id ="dCar" name="dCar" value="Drive car">
+                     <label for="dCar"> Drive car</label>
+                     <input type="checkbox" id ="swimming" name="swimming" value="Swimming">
+                     <label for="swimming"> Swimming</label>
+                     <input type="checkbox" id ="football"  name="football" value="Football">
+                     <label for="football"> Football</label>
+                     <input type="checkbox"  id ="vGame"  name="vGame" value="Video game">
+                     <label for="vGame"> Video game</label>
+                     <input type="checkbox"  id ="otherH"  name="otherH" value="other">
+                     <label for="otherH"> Other</label>
+                  </div>
+                  <button  class="btn-register btn btn-primary brn-lg"  type="submit"><strong>Register</strong></button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
