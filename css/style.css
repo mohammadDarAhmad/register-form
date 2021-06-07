@@ -33,17 +33,16 @@
      align-items: center;
      text-align: center;
 }
-.container{
-    margin-right: 25px !important;
+ .container{
+     margin-right: 25px !important;
 }
-.row{
-    margin-top: 3px !important;
+ .row{
+     margin-top: 3px !important;
 }
  .register-content img{
      padding: 10px;
      max-width: 100%;
      height: 100px;
-}
 }
  .title{
      margin: 15px 0;
@@ -58,8 +57,8 @@
      margin: 15px 250px 0px 50px;
      text-align: left;
 }
-h2{
-        margin: 15px 0;
+ h2{
+     margin: 15px 0;
      color: #333;
      text-transform: uppercase;
      font-size: 2.5rem;
@@ -80,25 +79,20 @@ h2{
      cursor: pointer;
      transition: .5s;
 }
-
  .btn-register:hover{
      background-position: right;
 }
-@media (min-width: 1600px){
-        .container{
-        max-width: 1750px !important;
-        
+ @media (min-width: 1600px){
+     .container{
+         max-width: 1750px !important;
     }
 }
-
  @media screen and (max-width: 992px){
-   .student-image{
+     .student-image{
          display: none;
     }
-
- }
+}
  @media screen and (max-width: 768px){
-  
      .register-content .input-div div{
          justify-content: center;
          margin: 15px 20px 10px 30px;
@@ -107,3 +101,4 @@ h2{
          padding: 0px 0px 0px 125px;
     }
 }
+ 
